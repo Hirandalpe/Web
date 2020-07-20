@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Login
+    </title>
+</head>
+<link rel="stylesheet" type="text/css" href="login.css">
+
+<body>
+    <form action="login.php" method="POST">
+        <table>
+            <tr>
+                <th>Username</th>
+                <td><input type="text" name="username"></td>
+            </tr>
+
+            <tr>
+                <th>Password</th>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="remember">
+                    <label for="remember">Remember Me</label>
+                </td>
+                <td id="forgot-psw">
+                    <a href="">Forgot Password?</a>
+                </td>
+            </tr>
+
+            <tr>
+                <th id="submit" colspan="2"><input type="submit" name="submit"></th>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
