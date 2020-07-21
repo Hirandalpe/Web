@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #33cc33 0%, #99ff33 100%);
+    background-size: cover;
+    background-repeat: none;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #130f40;
+    font-size: 40px;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+th {
+    padding: 12px;
+    color: #130f40;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 60vh;
+    height: 60vh;
+    background-color: whitesmoke;
+    border: 2px solid goldenrod;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    background-color: #130f40;
+    border: none;
+    color: gold;
+    text-decoration: none;
+    margin-left: 30%;
+    cursor: pointer;
+    padding: 11px;
+}

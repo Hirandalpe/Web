@@ -3,10 +3,10 @@
     $username = "root";
     $password = "" ;
     $dbname = "ph_hotel";
-    $userusername;
+    $useremail;
     $userpassword;
     $retrievedpassord = $_REQUEST["password"];
-    $retrievedusername = $_REQUEST["username"];
+    $retrievedemail = $_REQUEST["email"];
 
 
     $con = new mysqli($servername, $username, $password, $dbname);
@@ -16,22 +16,21 @@
     }
 
 
-    $qry = "SELECT Username, Password FROM customer_info";
+    $qry = "SELECT Email, Password FROM customer_info";
     $result = $con->query($qry);
 
     if($result->num_rows>0){
         while($row= $result->fetch_assoc()){
-        $userusername  = $row["Username"];
+        $useremail  = $row["Email"];
         $userpassword = $row["Password"];
         }
     }
 
-    if($retrievedpassord == $userpassword && $retrievedusername == $userusername)
+    if($retrievedpassord == $userpassword && $retrievedemail == $useremail)
     {
-        echo"DONE!!!!!!";
+        header("Location: juniorsuit.html");
     }
-    echo "$userusername <br/>";
-    echo" $userpassword ";
+   
     
   
     

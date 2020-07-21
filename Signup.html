@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign-up</title>
+
+
+</head>
+<link rel="stylesheet" href="Signup.css">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+<body>
+
+    <section>
+        <form action="Signup.php" method="POST" name="signup_form" onsubmit="passwordvalidate();">
+            <table>
+                <h1>Sign up</h1>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name="fname" id="fname" required></td>
+                </tr>
+
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" name="lname" id="lname" required></td>
+                </tr>
+
+                <tr>
+                    <th>E-mail</th>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+
+                <tr>
+                    <th>Password</th>
+                    <td> <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required></td>
+
+                </tr>
+                <tr>
+                    <th>Confirm Password</th>
+                    <td><input type="password" name="cpassword" id="cpassword" required></td>
+                </tr>
+
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" name="submit" id="submit">
+                    </th>
+                </tr>
+
+            </table>
+
+        </form>
+    </section>
+
+    <script>
+        function passwordvalidate() {
+
+            var check = document.signup_form.cpassword.value;
+            var pass = document.signup_form.password.value;
+
+            if (pass == check) {
+                alert("done brother!");
+
+            } else {
+                document.signup_form.action = "";
+
+                alert("Both passwords should be same. Check password and try again!");
+            }
+        }
+
+        function password() {
+
+
+
+            var decimal = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;;
+            if (!(document.signup_form.password.value.match(decimal))) {
+                document.getElementById("valid").style.display = "block";
+                document.signup_form.action = "";
+            }
+
+        }
+    </script>
+</body>
+
+</html>
