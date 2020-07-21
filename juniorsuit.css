@@ -7,7 +7,8 @@ body {
     margin: 0;
 }
 
-.twin {
+.twin,
+.twincon {
     background-color: #19031f;
     height: 80vh;
     border: 2px solid gold;
@@ -81,7 +82,7 @@ li a:hover {
 }
 
 .header h2 {
-    margin-left: 38vw;
+    margin-left: 35vw;
     display: block;
     font-family: 'Great Vibes', cursive;
     color: #19031f;
@@ -90,7 +91,8 @@ li a:hover {
 }
 
 .parallax {
-    opacity: 0.8;
+    z-index: -1;
+    opacity: 01;
     background-image: url("twinp2.jpg");
     min-height: 500px;
     background-attachment: fixed;
@@ -100,7 +102,8 @@ li a:hover {
 }
 
 .parallax1 {
-    opacity: 0.5;
+    z-index: -1;
+    opacity: 1;
     background-image: url("twinp2.jpg");
     min-height: 500px;
     background-attachment: fixed;
@@ -110,8 +113,20 @@ li a:hover {
 }
 
 .parallax2 {
-    opacity: 0.5;
-    background-image: url("twinp3.jpg");
+    z-index: -1;
+    opacity: 1;
+    background-image: url("Connecting3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    z-index: -1;
+    opacity: 1;
+    background-image: url("Prince.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -120,19 +135,23 @@ li a:hover {
 }
 
 #twinj {
-    font-family: 'Berkshire Swash', cursive;
-    text-align: center;
+    font-family: 'Great Vibes', cursive;
     display: block;
     font-size: 28px;
-    color: gold;
+    color: white;
 }
 
 .name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    text-decoration-line: underline;
     color: gold;
     display: block;
     margin-left: 32vw;
     padding-top: 15vh;
     text-shadow: 0 0 10px #19031f;
+    z-index: 1;
+    -moz-text-decoration-line: underline;
 }
 
 div.gallery {
@@ -148,6 +167,7 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    color: gold;
 }
 
 * {
@@ -158,7 +178,7 @@ div.desc {
     margin-top: 10vh;
     padding: 0 6px;
     float: left;
-    width: 33.3333%;
+    width: 25%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -219,4 +239,27 @@ div.desc {
 .contact {
     padding-top: -10vh;
     color: white
+}
+
+.twincon h1 {
+    font-size: 32px;
+    color: rgb(250, 243, 202);
+    font-family: 'Great Vibes', cursive;
+}
+
+.twincon h2 {
+    color: rgb(255, 245, 187);
+    font-family: "Times New Roman";
+}
+
+.parallax .name {
+    margin-left: 25%;
+}
+
+.gallery img:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
