@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="hotel.css">
+        <title>project</title>
+    </head>
+
+    <body>
+
+       
+       
+            
+    <div class="bg"></div>
+          
+    
+
+
+        <div class="topnav">
+ 
+            <a href="#">HOME</a>
+            <a href="#">BOOKING</a>
+            <a href="#">OFFERS</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">GALLERY</a>
+            <a href="#">RESERVATION</a>
+            <a href="#">CONTACTS</a>
+            <a href="#">FEEDBACK</a>
+           
+         </div>
+
+        <div>
+            <h2>PH Life</h2>
+            <p>Imagine the hallmark allure of Cinnamon Hotels and Resorts, now elevated to a scale more magnificent than ever before with its newest luxury hotel in Colombo.
+                Located next door to the city’s most iconic entertainment mall, your stay will be brimming with enjoyment, and the comforts we provide will make you feel right at home. </p>
+            <p>Discover an eclectic burst of flavour among the five restaurants and bars at PH Life! Sophisticated urban cuisine, contemporary signature dining and an array of cocktail, champagne and whiskey bars will occupy the upper levels. 
+                    The pools will be open for an outdoor swim throughout the day. With one on each side of the hotel, the sun won’t affect your fun, even when it’s at its peak – perfect for all-day aqua-batics! Your kids will love splashing around and will be further enthralled by our state-of-the-art kids’ club, complete with trained attendants and babysitting services.</p>
+                    <br/>
+            <h2>Banquets & Weddings</h2>
+            <p>The venues at Cinnamon Life are designed to complement the diversity that the city will have to offer. The banquet spaces on the Cantilever and Bridge on the 22nd floor is designed for spectacular views through floor-to-ceiling windows. The main ballroom on the 7th floor, conference and exhibition spaces on the 8th floor include vertical operable Skyfold partitions for exclusive events.
+                Inspired by the city of Colombo, Cinnamon Life is a celebration of the capital’s culture and history, creating a collection of contemporary luxuries. Live extravagantly, work conveniently, eat as indulgently as you shop, and experience world-class entertainment, all at the same iconic address.
+                        
+            </p>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="pic1.jpg" alt="hotel" width="600" height="500">
+              </div>
+              <div class="flip-box-back">
+                <img src="a11.jpg" alt="welcome" width="600" height="500">
+              </div>
+            </div>
+          </div>
+        <br/>
+        
+          <div class="container">
+            <h1>SPECIAL OFFERS</h1>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <div class="zoom">
+                <img src="img1.jpg" alt="Offer One" style="width:100%; height:100%;">
+            </div> 
+                <div class="container">
+                  <h2>OFFER TWO</h2>
+                  <p class="title">Book now pay later</p>
+                  <p>Description</p>
+                  <p><button class="button">View Details</button></p>
+                </div>
+              </div>
+            </div>
+          
+            
+          
+          <div class="column">
+              <div class="card">
+                <div class="zoom">
+                <img src="img2.jpg" alt="Offer Two" style="width:100%; height:100%;">
+                </div>
+                <div class="container">
+                  <h2>OFFER TWO</h2>
+                  <p class="title">25% off for the weedding couples </p>
+                  <p>Description</p>
+                  <p><button class="button">View Details</button></p>
+                </div>
+              </div>
+            </div>
+          
+          
+            <div class="column">
+              <div class="card">
+                <div class="zoom">
+                <img src="a14.jpg" alt="Offer Three" style="width:100%; height:100%;">
+                </div>
+                <div class="container">
+                  <h2>OFFER THREE</h2>
+                  <p class="title">SPA</p>
+                  <p>Description</p>
+                  <p><button class="button">View Details</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <br/>
+          <div class="container">
+            <h1>MEMORIES WITH US</h1>
+            <p>slideshow gallery</p>
+          </div>
+          
+          
+          <br/>
+          <div class="container">
+            <h1>LUXURY HIGHLIGHTS</h1>
+          </div>
+          
+          <br/>
+          
+          <div class="container">
+            <h1>LOCATION</h1>
+          </div>
+          
+          
+          <br/> 
+
+          <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+    </body>
+</html>
