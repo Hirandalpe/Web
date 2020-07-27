@@ -16,7 +16,7 @@
     }
 
 
-    $qry = "SELECT Email, Password FROM customer_info";
+    $qry = "SELECT Email, Password FROM customer_info WHERE Email = '$retrievedemail'";
     $result = $con->query($qry);
 
     if($result->num_rows>0){
@@ -26,10 +26,12 @@
         }
     }
 
-    if($retrievedpassord == $userpassword && $retrievedemail == $useremail)
+    if(md5($retrievedpassord) == $userpassword && $retrievedemail == $useremail)
     {
-        header("Location: juniorsuit.html");
+        header("Location: index.html");
     }
+
+    
    
     
   

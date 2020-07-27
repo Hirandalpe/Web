@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="rooms&suits.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="copyright">
+		<a>Copyright...</a>
+	</div>
+	<div class="container">
+		<div class="nav2">
+			<form action="" method="">		
+				<tr class="username">
+					<td><input type="text" placeholder="User Name" class="nav2trs"></td>
+				</tr>
+				<tr class="password">
+					<td><input type="password" placeholder="password" class="nav2trs"></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" class="login" value="Login">
+					</td>
+				</tr>		
+			</form>
+		</div>
+		<br>
+		<div class="logo">
+			<img src="weblogo.png" alt="logo" width="130" height="85"/>
+		</div>
+	</div>
+	<br>
+	<div class="mainnav" id="idmainnav">
+		<nav>
+			<ul>
+				<li class="home"><a href="file:///D:/xampp/htdocs/Web-master/index.html">HOME</a></li>
+				<li><a href="file:///D:/xampp/htdocs/Web-master/rooms&suits.html">ROOMS & SUITS</a></li>
+				<li>EVENTS</li>
+				<li><a href="file:///D:/xampp/htdocs/Web-master/offers.html">OFFERS</a></li>
+				<li>GALLERY</li>
+				<li>ABOUT US</li>
+				<li>CONTACT US</li>
+				<li>FEEDBACK</li>
+				<li class="bookings">BOOKINGS</li>
+				<li href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div>
+		<div class="incl"><h1>Rooms & Suits</h1><p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p></div>
+		<div class="incl1"><img src="211701.jpg"></div>
+	</div>
+	<br>
+    <div class="image-container">
+        <div class="text">Rooms & Suites</div>
+    </div>
+    <div class="row" id="row">
+        <div class="column" id="acc11">
+            <img src="hotel1.jpg" alt="">
+        </div>
+        <div class="column " id="acc12">
+            <h2>Supirior Suits</h2>
+            <p>Our superiror suits brings you an experience of luxure. <br> The suit contains all modern amenities. <br> Wifi , TV, Study table.. etc
+            </p>
+            <button class="button" onclick="superior()">Reserve</button>
+        </div>
+    </div>
+
+    <div class="row" id="row">
+        <div class="column" id="acc21">
+            <h2>Premior Suits</h2>
+            <p>des</p>
+            <button class="button" onclick="premior()">Reserve</button>
+        </div>
+        <div class="column" id="acc22">
+            <img src="hotel3.jpg " alt=" ">
+        </div>
+    </div>
+
+    <div class="row" id="row">
+        <div class="column" id="acc11">
+            <img src="hotel5.jpg" alt="">
+        </div>
+        <div class="column " id="acc12">
+            <h2>Junior Suits</h2>
+            <p>des</p>
+            <button class="button" onclick="junior()">Reserve</button>
+        </div>
+    </div>
+	
+    <div class="row" id="row">
+        <div class="column" id="acc21">
+            <h2>Executive Suits</h2>
+            <p>des</p>
+            <button class="button" onclick="executive()">Reserve</button>
+        </div>
+        <div class="column" id="acc22">
+            <img src="hotel4.jpg " alt=" ">
+        </div>
+    </div>
+
+    <script>
+		function myFunction() {
+		var x = document.getElementById("idmainnav");
+		if (x.className === "mainnav") {
+			x.className += " responsive";
+		} 
+		else {
+			x.className = "mainnav";
+			}
+		}
+		
+        function superior() {
+            window.location.href = "file:///D:/xampp/htdocs/Web-master/superior.html"
+        }
+		
+		function premior() {
+            window.location.href = "file:///D:/xampp/htdocs/Web-master/premior.html"
+        }
+		
+		function junior() {
+            window.location.href = "file:///D:/xampp/htdocs/Web-master/junior.html"
+        }
+		
+		function executive() {
+            window.location.href = "file:///D:/xampp/htdocs/Web-master/executive.html"
+        }
+    </script>
+</body>
+
+</html>

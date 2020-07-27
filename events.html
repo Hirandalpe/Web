@@ -1,136 +1,90 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="events.css">
 </head>
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="events.css">
-
 <body>
-    <button onclick="totop()" id="top_but" title="Go to top"><a><i class="fa fa-angle-up"></i></a></button>
-    <img src="download.png" id="logo">
-    <div class="navbar" id="topnav">
-
-        <a href="#home">Home</a>
-        <div class="dropdown">
-            <button class="drop">Booking</button>
-            <div class="drop_cont">
-                <a href="file:///C:/Users/ASUS/Desktop/web/Web-assign/accpage.html#home">Accommadation</a>
-                <a href="file:///C:/Users/ASUS/Desktop/web/Web-assign/events.html">Events</a>
-                <a href="#dine">Dinner</a>
-            </div>
-        </div>
-        <a href="#offers">Offers</a>
-        <a href="#about">About Us</a>
-        <a href="file:///C:/Users/ASUS/Desktop/web/Web-assign/index.html">Gallery</a>
-        <a href="file:///C:/Users/ASUS/Desktop/web/Web-assign/reserve.html#acc">Reservations</a>
-        <a href="#contact">Contact Us</a>
-        <a href="#feed">Feedback</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="topnav()">&#9776;</a>
-    </div>
-
+<div class="copyright">
+		<a>Copyright...</a>
+	</div>
+	<div class="container">
+		<div class="nav2">
+			<form action="" method="">		
+				<tr class="username">
+					<td><input type="text" placeholder="User Name" class="nav2trs"></td>
+				</tr>
+				<tr class="password">
+					<td><input type="password" placeholder="password" class="nav2trs"></td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" class="login" value="Login">
+					</td>
+				</tr>		
+			</form>
+		</div>
+		<br>
+		<div class="logo">
+			<img src="weblogo.png" alt="logo" width="130" height="85"/>
+		</div>
+	</div>
+	<br>
+	<div class="mainnav" id="idmainnav">
+		<nav>
+			<ul>
+				<li class="home"><a href="file:///D:/xampp/htdocs/Web-master/index.html">HOME</a></li>
+				<li><a href="file:///D:/xampp/htdocs/Web-master/Rooms&Suits.html">ROOMS & SUITS</a></li>
+				<li>EVENTS</li>
+				<li>OFFERS</li>
+				<li>GALLERY</li>
+				<li>ABOUT US</li>
+				<li>CONTACT US</li>
+				<li>FEEDBACK</li>
+				<li class="bookings">BOOKINGS</li>
+				<li href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div>
+		<div class="incl"><h1>Events</h1><p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p></div>
+		<div class="incl1"><img src="211701.jpg"></div>
+	</div>
+	<br>
     <div class="image-container">
         <div class="text">Exclusive Events , Priceless Memories</div>
     </div>
-    <div>
-
-        <div id="social_bar">
-            <div>
-                <a class="arrow" onclick="function();" id="Fa"><i class="fa fa-ellipsis-h"></i></a>
-            </div>
-            <a class="arrow" onclick="function()"><i class="fa fa-ellipsis-h"></i></a>
-            <a href="#facebook" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#twitter" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#instagram" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#youtube" class="youtube"><i class="fa fa-youtube"></i></a>
-            <a href="#linkedin" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        </div>
-    </div>
-
     <div class="eve">
         <div class="eve_ig1">
-            <div class="text1">
-                WEDDINGS
-            </div>
+            <div class="text1">WEDDINGS</div>
         </div>
         <div class="eve_ig2">
-            <div class="text2">
-                OFFICIAL <br>FUNCTIONS
-            </div>
+            <div class="text2">OFFICIAL<br>FUNCTIONS</div>
         </div>
         <div class="eve_ig3">
-            <div class="text3">
-                DINNER
-            </div>
+            <div class="text3">DINNER</div>
         </div>
     </div>
-
-
-
-
-
-    <div class="bottom">
-        <div class="bot_logo">
-            <img src="download.png" alt="logo" class="lg">
-        </div>
-        <div class="reach">
-            <p id="us">Reach us on:</p>
-            <ul>
-                <li id="p"><a href="#phone" class="phone"><i class="fa fa-phone"></i></a>&nbsp;&nbsp;:- &nbsp;0777695827</li>
-                <li><a href="#fax" class="fax"><i class="fa fa-fax"></i></a>&nbsp;:- &nbsp;0112587378</li>
-                <li><a href="#loc" class="loc"><i class="fa fa-map-marker"></i></a> &nbsp;&nbsp;:- 312, beach road, hambanthota</li>
-            </ul>
-        </div><br>
-        <div id="social_bot">
-            <a href="#facebook" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#twitter" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#instagram" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#youtube" class="youtube"><i class="fa fa-youtube"></i></a>
-            <a href="#linkedin" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        </div>
-
-    </div>
-
-
-
-
-
-
+	
     <script>
-        var topbut = document.getElementById("top_but");
-
-
-        window.onscroll = function() {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                topbut.style.display = "block";
-            } else {
-                topbut.style.display = "none";
-            }
-        }
-
-
-        function totop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-
-        function topnav() {
-            var x = document.getElementById("topnav");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
-        }
+		function myFunction() {
+		var x = document.getElementById("idmainnav");
+		if (x.className === "mainnav") {
+			x.className += " responsive";
+		} 
+		else {
+			x.className = "mainnav";
+			}
+		}
     </script>
 </body>
 
