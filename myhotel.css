@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("pic1.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: #19031f;
+  padding: 0;
+  margin: 0;
+}
+
+.twin {
+  background-color: #19031f ;
+  height: 80vh;
+  border: 2px solid gold;
+  width: 100%;
+}
+
+
+
+.twin2 {
+ 
+  background-color: #19031f;
+  height: 20vh;
+  border: 1px solid Gold;
+  width: 100%;
+}
+
+.twin2 h1 {
+  color: gold;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  display: block;
+  font-size: 45px;
+}
+
+
+.twin2 p {
+  color: gold;
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+}
+
+
+.twin3 {
+  background-color: #19031f ;
+  height: 50vh;
+  border: 2px solid gold;
+  width: 100%;
+}
+
+.twin3 h1 {
+  color: gold;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  display: block;
+  font-size: 45px;
+}
+
+.twin3 p {
+  color: gold;
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+}
+
+
+#bars {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #19031f;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-weight: bold;
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gold;
+}
+
+.active {
+  background-color: #301368;
+}
+
+.header img {
+  margin-left: 40vw;
+  height: 25vh;
+  width: initial;
+}
+
+.header h2 {
+  margin-left: 38vw;
+  display: block;
+  font-family: 'Great Vibes', cursive;
+  color: purple;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+
+
+.parallax {
+  opacity: 0.8;
+  background-image: url("a13.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+
+  opacity: 0.5;
+  background-image: url("a15.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.card {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  cursor: pointer;
+  width:100;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: white;
+  transition: transform .2s;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+
+
+
+
+
+
+.parallax2 {
+ text-align: center;
+font-family: BRYANT;
+color:#51063C;
+  opacity: 0.5;
+  background-image: url("a16.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#twinj {
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+  display: block;
+  font-size: 28px;
+  color: gold;
+}
+
+.name {
+  color: gold;
+  display: block;
+  margin-left: 32vw;
+  padding-top: 15vh;
+  text-shadow: 0 0 10px #19031f;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #19031f, 0 0 8px goldenrod;
+}
+
+div.gallery img {
+  width: 400;
+  height: 300;
+}
+
+
+
+
+
+
+
+div.desc {
+  padding: 16px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  margin-top: 10vh;
+  padding: 0 6px;
+  float: left;
+  width: 33.3333%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+      width: 40%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+      width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

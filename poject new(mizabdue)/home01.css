@@ -1,0 +1,43 @@
+
+
+/*--mizabdue:contact__2020/07/03--*/
+
+	.content_h1{
+		text-align: center;
+		
+		
+		
+		
+	}
+	body{
+		background-image: url("contact-bg.png");
+		
+		padding-right: 180px;
+		
+		padding-left: 180px;
+	}
+	.row{
+		background-color: #52517B;
+		
+		padding-top: 25px;
+		padding-right: 40px;
+		padding-bottom: 25px;
+		padding-left: 40px;
+		
+		color: white;
+		font-family:Verdana;
+	}
+	.col-sm-12{
+		background-color: #FCFCFC;
+		padding-top: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+	}
+	.infobox_infobox--s2{
+		background-color: #52517B;
+	}
+	a:link{
+		color: #F0AF1A;
+	}
+	
