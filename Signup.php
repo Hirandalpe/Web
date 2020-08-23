@@ -29,9 +29,9 @@ $con = new mysqli($servername, $username, $password, $dbname);
     }
 
     if($valid){
-        $encpass = md5($Password);
+       
     
-        $qury2 = "INSERT INTO customer_info (FirstName, LastName, Email, Pass) VALUES('".$FirstName."', '".$LastName."', '".$Email."', '".$encpass."')";
+        $qury2 = "INSERT INTO customer_info (FirstName, LastName, Email, Pass) VALUES('".$FirstName."', '".$LastName."', '".$Email."', '".$Password."')";
         $result2 = $con->query($qury2);
 
         if ($con->query($qury2) === TRUE) {

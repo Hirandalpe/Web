@@ -5,7 +5,7 @@ session_start();
 
 //this function gets the value if its preset
 
-function fetifset(&$value, $default = null){
+function getifset(&$value, $default = null){
     return isset($value) ? $value : $default;
 }
 //set the username value to a variable

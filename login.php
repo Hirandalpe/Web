@@ -15,20 +15,26 @@
         die("Connection Failed: ".$con->connect_error);
     }
 
-
-    $qry = "SELECT Email, Password FROM customer_info WHERE Email = '$retrievedemail'";
+  
+    $qry = "SELECT Email, pass FROM customer_info WHERE Email = '$retrievedemail'";
     $result = $con->query($qry);
+
+    $useremail;
+    $userpassword;
 
     if($result->num_rows>0){
         while($row= $result->fetch_assoc()){
         $useremail  = $row["Email"];
-        $userpassword = $row["Password"];
+        $userpassword = $row["pass"];
         }
     }
-
-    if(md5($retrievedpassord) == $userpassword && $retrievedemail == $useremail)
+    
+    if($retrievedpassord == $userpassword && $retrievedemail == $useremail)
     {
-        header("Location: index.html");
+        header("Location:index.html");
+    }
+    else{
+        echo"Your password is incorect";
     }
 
     
