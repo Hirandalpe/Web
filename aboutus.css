@@ -1,257 +1,112 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  .bg {
-    /* The image used */
-    background-image: url("a1.jpg");
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  
-  body {
-    background-color: black;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .twin {
-    background-color: #008080;
-    height: 80vh;
-    border: 2px solid #19031f;
-    width: 100%;
-  }
-  
-  
-  .twin2 {
-   
-    background-color: #FFE5B4;
-    height: 20vh;
-    border: 1px solid #19031f;
-    width: 100%;
-  }
-  
-  .twin2 h1 {
-    color: #19031f;
-    font-family: 'Great Vibes', cursive;
-    text-align: center;
-    display: block;
-    font-size: 45px;
-  }
-  
-  .twin2 p {
-    color: #19031f;
-    font-family: 'Berkshire Swash', cursive;
-    text-align: center;
-    display: block;
-    font-size: 20px;
-  }
-  
-  .twin3 {
-    background-color: gray;
-    height: 50vh;
-    border: 2px solid #19031f;
-    width: 100%;
-  }
-  
-  .twin3 h1 {
-    color: #19031f;
-    font-family: 'Great Vibes', cursive;
-    text-align: center;
-    display: block;
-    font-size: 45px;
-  }
-  
-  .twin3 p {
-    color: black;
-    font-family: 'Berkshire Swash', cursive;
-    text-align: center;
-    display: block;
-    font-size: 20px;
-  }
-  
-  #bars {
-    display: none;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #19031f;
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    top: 0;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    font-weight: bold;
-    display: block;
-    color: White;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: gold;
-  }
-  
-  .active {
-    background-color: #008080;
-  }
-  
-  .header img {
-    margin-left: 40vw;
-    height: 25vh;
-    width: initial;
-  }
-  
-  .header h2 {
-    margin-left: 38vw;
-    display: block;
-    font-family: 'Great Vibes', cursive;
-    color: purple;
-    font-size: 38px;
-    font-weight: bold;
-  }
-  
-  
-  .parallax {
-    opacity: 0.8;
-    background-image: url("a15.jpg");
-    min-height: 170%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-
-
-  .parallax p{
-      color: burlywood;
-  }
-  
-.parallax h2{
-    color: gold;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
-  .parallax1 {
-  
-    opacity: 0.5;
-    background-image: url("a16.jpg");
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+html {
+  box-sizing: border-box;
+}
 
-  .parallax2 {
-  
-    opacity: 0.5;
-    background-image: url("a1.jpg");
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-  .parallax2 H2{
-      color: gold;
-  }
-  
-  
-  
-  #twinj {
-    font-family: 'Berkshire Swash', cursive;
-    text-align: center;
-    display: block;
-    font-size: 28px;
-    color: #19031f;
-  }
-  
-  .name {
-    color: gold;
-    display: block;
-    margin-left: 32vw;
-    padding-top: 15vh;
-    text-shadow: 0 0 10px #19031f;
-  }
-  
-  div.gallery {
-    border: 1px solid #ccc;
-    box-shadow: 0 0 5px #19031f, 0 0 8px goldenrod;
-  }
-  
-  div.gallery img {
-    width: 400;
-    height: 300;
-  }
-  
-  
-  
-  
-  
-  
-  div.desc {
-    padding: 16px;
-    text-align: center;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .responsive {
-    margin-top: 10vh;
-    padding: 0 6px;
-    float: left;
-    width: 33.3333%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-        width: 40%;
-        margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-  }
-  
- 
-  
-
-  /* Create two equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section h1 {
+  color: black;
+  font-family: 'Great Vibes', cursive;
+  font-size: 10vh;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #83744d;
+  color: black;
+  font-family:Bahnschrift SemiCondensed;
+  font-size: 3vh;
+}
+
+.container1 {
+  padding: 0 16px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  background-color: #83744d;
+}
+
+.container1 h2{
+	font-family: 'Great Vibes', cursive;
+	font-size: 5vh;
+}
+
+.container1 p{
+	font-family:Bahnschrift SemiCondensed;
+	font-size: 2.5vh;
+}
+
+.container2 {
+  padding: 0 16px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  float: right;
+  background-color: #83744d;
+}
+
+.container2 h2{
+	font-family: 'Great Vibes', cursive;
+	font-size: 5vh;
+}
+
+.container2 p{
+	font-family:Bahnschrift SemiCondensed;
+	font-size: 2.5vh;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }

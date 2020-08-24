@@ -26,9 +26,10 @@ a:active{
 
 .copyright{
 	font-family:Bahnschrift SemiCondensed;
-	font-size:13px;
+	font-size:1.5vh;
 	color: #8b7f53;
-	margin-left: 200px;
+	margin-left: 10vw; /*for discription 20vw*/
+	margin-right: 70vw;
 	float: left;
 }
 
@@ -37,6 +38,7 @@ a:active{
 	overflow:auto;
 	background-color: #ffffff;
 	color: #201d13;
+	overflow: hidden;
 }
 
 .mainnav{
@@ -48,13 +50,13 @@ a:active{
 }
 
 .logo{
-	margin-left: 650px;
+	margin-left: 45vw;
+	margin-right: 45vw;
 }
 
 .logo img{
-	display: block;
-	margin: 0 auto;
-	padding-left: 30px;
+	width: 10vw;
+	cursor: pointer;
 }
 
 nav{
@@ -65,18 +67,14 @@ nav{
 nav ul li{
 	text-align: center;
 	display: inline-block;
-	padding-left:20px;
-	padding-right:20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size:18px;
+	padding-left:2.5vh;
+	padding-right:2.5vh;
+	padding-top: 2.5vh;
+	padding-bottom: 2.5vh;
+	font-size:3vh;
 	font-family:Bahnschrift SemiCondensed;
 	color: #8b7f53;
 	cursor: pointer;
-}
-
-.home{
-	margin-left: 300px;
 }
 
 .bookings{
@@ -84,11 +82,15 @@ nav ul li{
 	color: #ece8df;
 	float: right;
 	font-family:Bahnschrift SemiCondensed;
-	font-size:18px;
-	padding-left: 50px;
-	padding-right: 50px;
-	margin-right: 200px;
+	font-size:3vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-right: 2vw;
 	cursor: pointer;
+}
+
+.bookings a{
+	color: #ece8df;
 }
 
 .bookings:hover{
@@ -100,7 +102,7 @@ nav ul li:hover:after{
     display: block;
 	margin: 0 auto;
     width: 75%;
-	border-bottom:2px solid #64593B;
+	border-bottom:0.3vh solid #64593B;
 }
 
 * {
@@ -109,37 +111,30 @@ nav ul li:hover:after{
 
 .mainnav .icon {
 	display: none;
-	font-size: 30px;
+	font-size: 3vh;
 	color: gray;
 }
 
 .nav2{
 	float: right;
 	color: #ece8df;
-	margin-right: 200px;
+	margin-right: 10vh;
+	margin-left: 80vh;
 	border-color: #64593B;
-}
-
-.username{
-	float: left;
-}
-
-.password{
-	float: left;
 }
 
 .login{
 	float: right;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-left: 10px;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	margin-left: 1vw;
 	background-color: #83744d;
 	color: #ece8df;
 	border-color: #83744d;
 	font-family:Bahnschrift SemiCondensed;
-	font-size: 15px;
+	font-size: 2.5vh;
 	cursor: pointer;
 }
 
@@ -147,18 +142,9 @@ nav ul li:hover:after{
 	background-color: #64593B;
 }
 
-.nav2trs{
-	padding: 5px;
-	border-radius: 5px;
-	font-family:Bahnschrift SemiCondensed;
-	font-size: 15px;
-	border-color: #ffffff;
-	color: #8b7f53;
-}
-
 .fade img{
-	max-width:100%;
-	height:82.5%;
+	max-width:100vw;
+	height:82.5vh;
 }
 
 .mySlides {
@@ -166,18 +152,18 @@ nav ul li:hover:after{
 }
 
 .slideshow-container {
-	max-width: 100%;
+	max-width: 100vw;
 	position: relative;
 	margin: auto;
 }
 
 .scroll-down {
 	position: absolute;
-	left: 50%;
-	bottom: 50px;
+	left: 50vw;
+	bottom: 5vh;
 	display: block;
 	text-align: center;
-	font-size: 20px;
+	font-size: 2vh;
 	z-index: 100;
 	text-decoration: none;
 	text-shadow: 0;
@@ -187,7 +173,6 @@ nav ul li:hover:after{
 	border-right: 2px solid #ffffff;
 	color: #ece8df;
 	z-index: 9;
-	left: 50%;
 	-webkit-transform: translate(-50%, 0%) rotate(45deg);
 	-moz-transform: translate(-50%, 0%) rotate(45deg);
 	transform: translate(-50%, 0%) rotate(45deg);
@@ -210,7 +195,7 @@ nav ul li:hover:after{
 .para1 h1{
 	text-align: center;
 	font-family: 'Great Vibes', cursive;
-	font-size: 70px;
+	font-size: 8vh;
 	color: #8b7f53;
 }
 
@@ -223,7 +208,7 @@ nav ul li:hover:after{
 .para2 h1{
 	text-align: center;
 	font-family: 'Great Vibes', cursive;
-	font-size: 70px;
+	font-size: 9vh;
 	color: #8b7f53;
 }
 
@@ -235,11 +220,11 @@ nav ul li:hover:after{
 	text-align: center;
 	background-color: #83744d;
 	display: inline-block;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:50px;
-	padding-right:50px;
-	font-size:20px;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	padding-left:5vw;
+	padding-right:5vw;
+	font-size:3vh;
 	font-family:Bahnschrift SemiCondensed;
 	color: #ece8df;
 	cursor: pointer;
@@ -250,19 +235,25 @@ nav ul li:hover:after{
 }
 
 #wrapper{
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 100vw;
+	max-height: 100vh;
 	margin:0 auto;
 	text-align: center;
-	padding: 10px;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+	padding-right: 1vw;
 }
 
 .box{
 	display: inline-block;
 	transition: 0.3s;
-	width: 20%;
-	height: 40%;
-	padding: 5px;
+	width: 20vw;
+	height: 40vh;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
 }
 
 .box:hover{
@@ -272,7 +263,7 @@ nav ul li:hover:after{
 
 .box img {
 	border-radius: 5px 5px 5px 5px;
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 }
 
@@ -282,19 +273,25 @@ nav ul li:hover:after{
 }
 
 #wrapper1{
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 100vw;
+	max-height: 100vh;
 	margin:0 auto;
 	text-align: center;
-	padding: 10px;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+	padding-right: 1vw;
 }
 
 .box1{
 	display: inline-block;
 	transition: 0.3s;
-	width: 20%;
-	height: 40%;
-	padding: 5px;
+	width: 20vw;
+	height: 40vh;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
 }
 
 .box1:hover{
@@ -304,7 +301,7 @@ nav ul li:hover:after{
 
 .box1 img {
 	border-radius: 5px 5px 5px 5px;
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 }
 
@@ -316,7 +313,7 @@ nav ul li:hover:after{
 .para3 h1{
 	text-align: center;
 	font-family: 'Great Vibes', cursive;
-	font-size: 70px;
+	font-size: 9vh;
 	color: #8b7f53;
 }
 
@@ -328,11 +325,11 @@ nav ul li:hover:after{
 	text-align: center;
 	background-color: #83744d;
 	display: inline-block;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:50px;
-	padding-right:50px;
-	font-size:20px;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	padding-left:5vw;
+	padding-right:5vw;
+	font-size:3vh;
 	font-family:Bahnschrift SemiCondensed;
 	color: #ece8df;
 	cursor: pointer;
@@ -343,11 +340,14 @@ nav ul li:hover:after{
 }
 
 #wrapper2{
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 100vw;
+	max-height: 100vh;
 	margin:0 auto;
 	text-align: center;
-	padding: 10px;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+	padding-right: 1vw;
 }
 
 .box2{
@@ -357,9 +357,12 @@ nav ul li:hover:after{
 #box2{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
-	width: 30%;
-	height: 57.5%;
-	padding: 5px;
+	width: 30vw;
+	height: 67vh;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
 }
 
 #box2:hover{
@@ -375,7 +378,8 @@ nav ul li:hover:after{
 }
 
 .container2 {
-	padding: 2px 16px;
+	padding-top: 0.2vh;
+	padding-right: 1.6vw;
 }
 
 .container2 h2{
@@ -398,11 +402,11 @@ nav ul li:hover:after{
 	text-align: center;
 	background-color: #83744d;
 	display: inline-block;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:50px;
-	padding-right:50px;
-	font-size:20px;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	padding-left:5vw;
+	padding-right:5vw;
+	font-size:3vh;
 	font-family:Bahnschrift SemiCondensed;
 	color: #ece8df;
 	cursor: pointer;
@@ -420,11 +424,11 @@ nav ul li:hover:after{
 	text-align: center;
 	background-color: #83744d;
 	display: inline-block;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:50px;
-	padding-right:50px;
-	font-size:20px;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	padding-left:5vw;
+	padding-right:5vw;
+	font-size:3vh;
 	font-family:Bahnschrift SemiCondensed;
 	color: #ece8df;
 	cursor: pointer;
@@ -442,11 +446,11 @@ nav ul li:hover:after{
 	text-align: center;
 	background-color: #83744d;
 	display: inline-block;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:50px;
-	padding-right:50px;
-	font-size:20px;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	padding-left:5vw;
+	padding-right:5vw;
+	font-size:3vh;
 	font-family:Bahnschrift SemiCondensed;
 	color: #ece8df;
 	cursor: pointer;
@@ -454,6 +458,33 @@ nav ul li:hover:after{
 
 .offers2 a:hover{
 	background-color: #64593B;
+}
+
+.footer{
+	text-align: center;
+	background-color: #83744d;
+	bottom: 0;
+	width: 98vw;
+	height: 20vh;
+}
+
+#social{
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+	display: block;
+	margin: 0 auto;
+}
+
+#social a{
+	color: #f2f2f2;
+	text-decoration: none;
+	text-align: center;
+	margin: 3vw;
+	font-size: 3vh;
+}
+
+#social a:hover{
+	color: #F0AF1A;
 }
 
 @-webkit-keyframes fade_move_down {
@@ -485,10 +516,11 @@ nav ul li:hover:after{
 }
 
 @media only screen and (max-width: 300px) {
-	.text {font-size: 11px}
+	.text {
+		font-size: 11px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1150px) {
 	.mainnav ul li {
 		display: none;
 	}
@@ -499,10 +531,11 @@ nav ul li:hover:after{
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1150px) {
 	.mainnav.responsive {
 		position: relative;
 	}
+	
 	.mainnav.responsive ul li.icon {
 		position: absolute;
 		right: 0;
@@ -530,89 +563,4 @@ nav ul li:hover:after{
 		width: 75%;
 		border-bottom:1px solid #83744d;
 	}
-}
-
-@media screen and (max-width: 600px) {
-	.nav2.responsive {
-		position: relative;
-		border-style: none;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.logo {
-		position: relative;
-		border-style: none;
-		float: none;
-		display: block;
-		margin: 0 auto;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.events1 a{
-		position: relative;
-		border-style: none;
-		float: none;
-		display: block;
-		margin: 0 auto;
-		padding: 0;
-	}
-	
-	.suits1 a{
-		position: relative;
-		border-style: none;
-		float: none;
-		display: block;
-		margin: 0 auto;
-		padding: 0;
-	}
-	
-	.offers2 a{
-		position: relative;
-		border-style: none;
-		float: none;
-		display: block;
-		margin: 0 auto;
-		padding: 0;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.box2 {
-		position: relative;
-		border-style: none;
-		float: none;
-		max-height: 40%;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.login {
-		position: relative;
-		border-style: none;
-		float: none;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.nav2trs {
-		position: relative;
-		float: none;
-		margin: 5px;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.copyright {
-		position: relative;
-		border-style: none;
-		float: left;
-		margin: 0;
-		padding: 10px;
-	}
-}
-
-img {
-	max-width: 100%; 
 }
