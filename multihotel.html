@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="style/multihotel.css">
+</head>
+<body>	
+	<div class="hambanthota">
+		<div class="slid" id="slid01">
+			<div id="mySlides">
+				<img class="mySlides" src="img/hambanthota01.jpg" style="width:100%">
+				<img class="mySlides" src="img/hambanthota02.jpeg" style="width:100%">
+				<img class="mySlides" src="img/hambanthota03.jpg" style="width:100%">
+				<img class="mySlides" src="img/hambanthota04.jpg" style="width:100%">
+				<img class="mySlides" src="img/hambanthota05.jpg" style="width:100%">
+			</div>
+		</div>
+		<div class="para" id="para01">
+			<div>
+			<h2 class="topic">
+				HAMBANTHOTA
+			</h2>
+			<P>
+				The district city of Hambantota is located towards the extreme south of Sri Lanka. The city was completely destroyed by tsunami in 2004, but now it is growing up to be the 2nd major city in Sri Lanka after Colombo. Hambantota is well-known for its biodiversity. There are approximately 20 wildlife sanctuaries and national parks in the entire Hambantota district. You will encounter a lot of colourful and magnificent birds in the parks and sanctuaries. Not only birds, you will find many other animals which are rare in other sanctuaries. There are some heritage sites too in Hambantota like Buddhist temples and stupas.
+
+				Hambantota, being a city, has a happening nightlife. You can enjoy in one of the many nightclubs and bars like Café Chill Out, various hotel bars, etc. The food in Hambantota is just mouth-watering. You will get to choose from a variety of sea foods like crabs, lobsters, etc. Some of the good restaurants are Bojun Hala, Jade Garden Restaurant, and Sera.
+
+				You must be thinking where to stay in Hambantota. Well, you have a plenty of choices to choose from. 
+
+
+			</p>
+			</div>
+		</div>
+	</div>
+	<div class="kandy">
+		<div class="slid" id="slid02">
+			<div id="mySlides">
+				<img class="mySlides02" src="img/kandy 01.jpg" style="width:100%">
+				<img class="mySlides02" src="img/kandy 02.jpg" style="width:100%">
+				<img class="mySlides02" src="img/kandy 03.jpg" style="width:100%">
+				<img class="mySlides02" src="img/kandy 04.jpg" style="width:100%">
+				<img class="mySlides02" src="img/kandy 05.jpg" style="width:100%">
+			</div>
+		</div>
+		<div class="para" id="para02">
+			<div>
+			<h2 class="topic">
+				KANDY
+			</h2>
+			<P>
+				Rated among the major cities of Sri Lanka, Kandy is a special city. Surrounded by dense forests and mountain ranges, acquiring a height of 500 meters from the sea level, the tourist plces in this town gives you a feeling that you are living in a modern valley. Nature supports this place immensely and makes it the city with a pleasant climate. A city with lakes and special landscapes is always a delight when you plan to spend some romantic evenings and playful late nights while mooning around.
+
+				Kandy has a rich historical background covering the major events of the medieval era and colonial era. Every square inch of this nicely planned town has a piece of Sri Lankan history to share with you. You can feel the pulse of royalty in some colonial architecture and feel the divine blessings while visiting a large temple where science meets religion and together they try to explain the complexity of life. The Colonial-era constructions left an imprint on various cities of the world, current generations term these imprints as "old world charms." While moving in the capacity of a tourist, Kandy gives you this opportunity to capture the old world charm where the ambiance of the city plays a pivotal role and transports you into the world where things were easier and more enjoyable. For many of you, it can also become a travel in time when you will visit this nice city that has a mystique associated with it.
+
+				 If you wish to explore the evolution of a cityscape and witness that how historical factors contribute to it, then the town of Kandy is the right place for that. Check out the map of the city drawn in 1815 and visit the present city. You will understand the point that we are trying to make here, also about the tourist places in Kandy. The town of Kandy added a value to its legacy and never changed its roots for the sake of development. This one virtue makes this town worth a visit.
+			</p>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides02");
+			for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none"; 
+			}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}    
+		x[myIndex-1].style.display = "block";  
+		setTimeout(carousel, 3000); 
+		}
+	</script>
+</body>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Beach</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/beach.css">
+</head>
+
+<body>
+    <header>
+        <span class="title">Ph Gallery </span>
+        <p class="description">An intimate and charming atmosphere, high quality comfort and traditional Tuscan hospitality</p>
+    </header>
+    <hr />
+    <div class="row">
+        <img class="web-img" onclick="show(this); currentSlide(1);" src="img/room01.jpg" alt="Rooms">
+        <img class="web-img" onclick="show(this); currentSlide(2);" src="img/room02.jpg" alt="ROOMS">
+        <img class="web-img" onclick="show(this); currentSlide(3);" src="img/room03.jpg" alt="ROOMS">
+        <img class="web-img" onclick="show(this); currentSlide(4);" src="img/con1.jpg" alt="CONFERENCE ROOM">
+        <img class="web-img" onclick="show(this); currentSlide(5);" src="img/con2.jpg" alt="CONFERENCE ROOM">
+        <img class="web-img" onclick="show(this); currentSlide(6);" src="img/con3.jpg" alt="CONFERENCE ROOM">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/hall01.jpg" alt="HALL">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/hall02.jpg" alt="HALL">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/hall2.jpg" alt="HALL">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/gar01.jpg" alt="GARDEN">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/gar02.jpg" alt="GARDEN">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/gar03.jpg" alt="GARDEN">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/pool01.jpg" alt="POOL SIDE">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/pool02.jpg" alt="POOL SIDE">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/pool03.jpg" alt="POOL SIDE">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/food01.jpg" alt="FOOD&DRINK">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/food02.jpg" alt="FOOD&DRINK">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/food03.jpg" alt="FOOD&DRINK">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/bar01.jpg" alt="BARSIDE">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/bar2.jpg" alt="BARSIDE">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/bar3.jpg" alt="BARSIDE">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/int01.jpg" alt="INTERIOR">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/int2.jpg" alt="INTERIOR">
+        <img class="web-img" onclick="show(this); currentSlide(7);" src="img/int3.jpg" alt="INTERIOR">
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <span class="prev" onclick="plusSlides(-1);">&#10094;</span>
+        <span class="next" onclick="plusSlides(1);">&#10095;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <div class="zoom"></div>
+
+    <script>
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        // Thumbnail image controls
+        function currentSlide(n) {
+            slideIndex = n;
+        }
+
+        function showSlides(n) {
+            var slides = document.getElementsByClassName("web-img");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            show(slides[slideIndex - 1]);
+        }
+
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+
+        function show(img) {
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            captionText.innerHTML = img.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+    </script>
+
+
+</body>
+
+</html>
