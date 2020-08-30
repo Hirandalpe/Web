@@ -1,0 +1,84 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #9c8c43;
+        }
+        
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            color: #665b25;
+            font-size: 69px;
+            margin-left: 5%;
+            padding: 20px;
+        }
+        
+        th {
+            padding: 15px;
+            color: #665b25;
+            font-size: 25px;
+            font-family: 'Lobster Two', cursive;
+        }
+        
+        section {
+            margin-left: 40%;
+            margin-top: 10%;
+            width: 60vh;
+            height: 60vh;
+            background-color: whitesmoke;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+        }
+        
+        input[type=submit] {
+            font-weight: bold;
+            width: 100%;
+            background-color: #ffffff;
+            color: #8b7f53;
+            padding: 10px 15px;
+            margin: 8px 0;
+            border: 4px solid #8b7f53;
+            border-radius: 25px;
+            cursor: pointer;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+            font-size: 22px;
+            font-family: 'Lobster Two', cursive;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #b3a26e;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        
+        td {
+            margin-left: 80px;
+        }
+        
+        .sss {
+            margin-top: -50px;
+        }
+        
+        form {
+            text-align: center;
+            width: 35vw;
+            margin-left: 40vw;
+            background-color: #f2f2f2;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+        }
+        
+        @media screen and (max-width:1000px) {
+            form {
+                width: 40vw;
+                background-color: #f2f2f2;
+            }
+        }

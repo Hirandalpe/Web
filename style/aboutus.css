@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.card1 {
+	width: 45vw;
+  height: 100vh; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  margin-left:3vw;
+}
+
+.card2 {
+	width: 45vw;
+  height: 100vh;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float: right;
+  margin-right:3vw;
+}
+
+.about-section h1 {
+  color: black;
+  font-family: 'Great Vibes', cursive;
+  font-size: 10vh;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #83744d;
+  color: black;
+  font-family:Bahnschrift SemiCondensed;
+  font-size: 3vh;
+}
+
+.container1 {
+  padding: 0 16px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  width: 45vw;
+  height: 69vh;
+  background-color: #83744d;
+}
+
+.container1 h2{
+	font-family: 'Great Vibes', cursive;
+	font-size: 5vh;
+}
+
+.container1 p{
+	font-family:Bahnschrift SemiCondensed;
+	font-size: 2.5vh;
+}
+
+.container2 {
+  padding: 0 16px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  float: right;
+  width: 45vw;
+  height: 69vh;
+  background-color: #83744d;
+}
+
+.container2 h2{
+	font-family: 'Great Vibes', cursive;
+	font-size: 5vh;
+}
+
+.container2 p{
+	font-family:Bahnschrift SemiCondensed;
+	font-size: 2.5vh;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  margin-top: 40px;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1:hover {
+  background-color: #555;
+}
+
+.button2:hover {
+  background-color: #555;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

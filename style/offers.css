@@ -1,0 +1,1000 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{transition:all 0.3s ease-in-out;}
+
+body {
+	background-color: #ffffff;
+}
+
+a:link{
+	text-decoration: none;
+	color: #8b7f53;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #8b7f53;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #8b7f53;
+}
+
+a:active{
+	text-decoration: none;
+	color: #8b7f53;
+}
+
+.copyright{
+	font-family:Bahnschrift SemiCondensed;
+	font-size:1.5vh;
+	color: #8b7f53;
+	margin-left: 10vw; /*for discription 20vw*/
+	margin-right: 70vw;
+	float: left;
+}
+
+.container{
+	clear:both;
+	overflow:auto;
+	background-color: #ffffff;
+	color: #201d13;
+	overflow: hidden;
+}
+
+.mainnav{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #f2f2f2;
+	z-index: +1;
+}
+
+.logo{
+	margin-left: 45vw;
+	margin-right: 45vw;
+}
+
+.logo img{
+	width: 10vw;
+	cursor: pointer;
+}
+
+nav{
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+nav ul li{
+	text-align: center;
+	display: inline-block;
+	padding-left:2.5vh;
+	padding-right:2.5vh;
+	padding-top: 2.5vh;
+	padding-bottom: 2.5vh;
+	font-size:3vh;
+	font-family:Bahnschrift SemiCondensed;
+	color: #8b7f53;
+	cursor: pointer;
+}
+
+.bookings{
+	background-color: #83744d;
+	color: #ece8df;
+	float: right;
+	font-family:Bahnschrift SemiCondensed;
+	font-size:3vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-right: 2vw;
+	cursor: pointer;
+}
+
+.bookings a{
+	color: #ece8df;
+}
+
+.bookings:hover{
+	background-color: 64593B;
+}
+
+nav ul li:hover:after{
+	content: "";
+    display: block;
+	margin: 0 auto;
+    width: 75%;
+	border-bottom:0.3vh solid #64593B;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.mainnav .icon {
+	display: none;
+	font-size: 3vh;
+	color: gray;
+}
+
+.nav2{
+	float: right;
+	color: #ece8df;
+	margin-right: 10vh;
+	margin-left: 80vh;
+	border-color: #64593B;
+}
+
+.incl{
+	float: left;
+	color: #83744d;
+	width: 49vw;
+	height: 50vh;
+	text-align: center;
+}
+
+.incl h1{
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 10vh;
+}
+
+.incl p{
+	text-align: center;
+	font-family: Bahnschrift Light;
+	font-size: 4vh;
+	margin: 1vw;
+}
+
+.incl1{
+	width: 98vw;
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+.incl1 img{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+	height: 50vh;
+	width: 49vw;
+	float: right;
+	z-index: -1;
+}
+
+.login{
+	float: right;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	margin-left: 1vw;
+	background-color: #83744d;
+	color: #ece8df;
+	border-color: #83744d;
+	font-family:Bahnschrift SemiCondensed;
+	font-size: 2.5vh;
+	cursor: pointer;
+}
+
+.login:hover{
+	background-color: #64593B;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.footer{
+	text-align: center;
+	background-color: #83744d;
+	bottom: 0;
+	width: 98vw;
+	height: 20vh;
+}
+
+#social{
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+	display: block;
+	margin: 0 auto;
+}
+
+#social a{
+	color: #f2f2f2;
+	text-decoration: none;
+	text-align: center;
+	margin: 3vw;
+	font-size: 3vh;
+}
+
+#social a:hover{
+	color: #F0AF1A;
+}
+
+a {
+    text-decoration: none;
+    color: #01BFD9;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
+
+.row {
+    width: 100%;
+}
+
+
+.col-2-3 {
+    width: 100%;
+	
+}
+
+.col-1-3, .col-2-3 {
+    display: inline-block;
+    float: left;
+}
+
+#bg-img1 {
+    background: url("../img/jumeirah-beach-hotel-dubai-superior-room-balcony.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+	padding:0;
+}
+#bg-img2 {
+    background: url("../img/slide_5.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}
+#bg-img3 {
+    background: url("../img/lbp_1920_1080_accommodation_suite_signature_rose_petals.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}       
+#bg-img4 {
+    background: url("../img/Executive-Room-Rembrandt-Hotel-Bangkok.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}       
+#bg-img5 {
+    background: url("../img/family-hotel-rooms-amazing-with-picture-of-family-hotel-exterior-new-on-ideas.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}
+
+@keyframes backgroundchangeFadeInOut {
+        0%   {opacity: 0;}
+        66%  {opacity: 0;}
+        68%  {opacity: 1;}
+        98%  {opacity: 1;}
+        100% {opacity: 0;}
+}
+
+@-webkit-keyframes backgroundchangeFadeInOut {
+        0%   {opacity: 0;}
+        66%  {opacity: 0;}
+        68%  {opacity: 1;}
+        98%  {opacity: 1;}
+        100% {opacity: 0;}
+}
+
+#backgroundchange div:nth-of-type(1) {
+    animation-delay: 25s;
+    -webkit-animation-delay: 25s;
+}
+#backgroundchange div:nth-of-type(2) {
+    animation-delay: 20s;
+    -webkit-animation-delay: 20s;
+}
+#backgroundchange div:nth-of-type(3) {
+    animation-delay: 15s;
+    -webkit-animation-delay: 15s;
+}
+#backgroundchange div:nth-of-type(4) {
+    animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+}
+#backgroundchange div:nth-of-type(5) {
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+#backgroundchange div:nth-of-type(6) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+#backgroundchange div {
+    animation-name: backgroundchangeFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+
+    -webkit-animation-name: backgroundchangeFadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 30s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+}
+
+#backgroundchange {
+    background: url("../img/houprk-omni-houston-hotel-pool-2.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.room-info{
+    height: 100%;
+    width: 35%;
+    float: right;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #ece8df;
+}
+
+.room-info h3 {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.room-info a {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding:10px;
+    margin: 0px;
+    margin-left: -20px;
+    font-size: 20px;
+    background: linear-gradient(#83744d, #201c13);
+	color: #ece8df;
+}
+
+.room-info a:hover{
+	background: linear-gradient(#201c13, #83744d);
+}
+
+.reservation {
+    padding: 10px;
+    background: transparent;
+}
+
+#facilities-bg-img1 {
+    background: url("../img/es_meetingroom_2_712x342_FitToBoxSmallDimension_Center.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}
+#facilities-bg-img2 {
+    background: url("../img/weddings-new.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}
+#facilities-bg-img3 {
+    background: url("../img/spa1.jpg") no-repeat;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}       
+#facilities-bg-img4 {
+    background: url("../img/venetian-gym-01.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}       
+#facilities-bg-img5 {
+    background: url("../img/swimming-pool-widescreen-wallpapers-free-download.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+}
+
+#facilities-bg-change div:nth-of-type(1) {
+    animation-delay: 25s;
+    -webkit-animation-delay: 25s;
+}
+#facilities-bg-change div:nth-of-type(2) {
+    animation-delay: 20s;
+    -webkit-animation-delay: 20s;
+}
+#facilities-bg-change div:nth-of-type(3) {
+    animation-delay: 15s;
+    -webkit-animation-delay: 15s;
+}
+#facilities-bg-change div:nth-of-type(4) {
+    animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+}
+#facilities-bg-change div:nth-of-type(5) {
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+#facilities-bg-change div:nth-of-type(6) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+#facilities-bg-change div {
+    animation-name: backgroundchangeFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+
+    -webkit-animation-name: backgroundchangeFadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 30s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+}
+
+#backgroundchange {
+    background: url("../img/houprk-omni-houston-hotel-pool-2.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.myclass {
+	height: 100vh;
+	background-image:url("../img/hotel.jpg");
+}
+
+.myclass .content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+ 
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+}
+ 
+.text-wrapper h1 {
+    
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 50px;
+    color: #ece8df;
+} 
+.text-wrapper h2 {
+    
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 50px;
+    color: #ece8df;
+} 
+
+.text-wrapper p{
+    text-align: center;
+    color: #ece8df;
+    font-size: 1.4vw;
+    font-family: Bahnschrift Light;
+    font-style: bold;
+} 
+.text-wrapper h1, .text-wrapper p {
+	margin:0;
+	text-align: center;
+}
+  .navbar {
+    overflow: hidden;
+    background-color: #52517b;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mysec {
+	height:120vh;
+}
+.text123 h1 {
+	font-family: 'Great Vibes', cursive;
+	color: #ece8df;
+}
+
+.text123 {
+	border: 3px solid #f1f1f1;	
+}
+
+.content{
+    width:70%;
+    background-color:#f2f2f2;
+    display: block;
+	margin: 0 auto;
+    height:450px;
+    border-width:50%;
+}
+.content2{
+    width:70%;
+    background-color:#f2f2f2;
+	display: block;
+	margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    height:440px;
+    border-width:50%;
+
+}
+.lorem {
+  float: left;
+  width: 39.6%;
+  padding: 5px;
+
+}
+.content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#child2 {
+
+    height: 30%;
+    color:#fff;
+    font-size:1.5vw;
+    padding-left: 115px;
+    padding-top:20px;
+
+
+}
+#child3 {
+
+    height: 30%
+    color:#fff;
+    font-size:1.5vw;
+    padding-left: 125px;
+    padding-top:20px;
+
+
+}
+#child3 h2{
+    color:#fff;
+    text-shadow: 2px 2px black;
+    text-align:center;
+   /* font-size: 2vw;*/
+
+}
+#child3 p {
+    color:#fff;
+    font-size:1vw;
+	text-align:justify:
+	padding:10px;
+	margin-right:2px;
+}
+#child2 h2{
+    color:#fff;
+    text-shadow: 2px 2px black;
+    text-align:center;
+   /* font-size: 2vw;*/
+
+}
+#child2 p {
+    color:#fff;
+    font-size:1vw;
+	text-align:justify:
+	padding:10px;
+	margin-right:2px;
+}
+#queue
+{
+
+    padding-bottom:-20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#myBtn {
+  background-color: #83744d; 
+  color:white; 
+  font-size:1vw;
+  margin-left:20px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#myBtn:hover {
+  background-color:#64593b;
+}
+
+.button {
+    background-color:#83744d;
+    border-radius: 8px;
+    border: none;
+    color: #D7D7ED;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top:-21%;
+    margin-left: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.button:hover{
+	background-color: #64593b;
+}
+
+.button2 {
+    background-color:#83744d;
+    border-radius: 8px;
+    border: none;
+    color: #D7D7ED;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top:-15%;
+    margin-left: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.button2:hover{
+	background-color: #64593b;
+}
+
+.button3 {
+    background-color:#83744d;
+    border-radius: 8px;
+    border: none;
+    color: #D7D7ED;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top:-22%;
+    margin-left: 5%;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.button3:hover{
+	background-color: #64593b;
+}
+
+.button3 a {
+	text-decoration:none;
+	color:white;
+}
+.button2 a {
+	text-decoration:none;
+	color:white;
+}
+.boxevent {
+	width:165%;
+	background-color:#241e4f;
+	height:410px;
+	padding-top:20px;
+	padding-left:20px;	
+}
+.boxevent3 {
+	width:165%;
+	background-color:#241e4f;
+	height:390px;
+	padding-top:20px;
+	padding-left:20px;	
+}
+.boxevent4 {
+	margin-top:18px;
+	width:130%;
+	background-color:#241e4f;
+	height:450px;
+	padding-top:20px;
+	padding-left:20px;
+	margin-left:0px;	
+}
+#more {display: none;}
+
+.content11{
+    width:70%;
+    background-color:#f2f2f2;
+    display: block;
+	margin: 0 auto;
+    height:500px;
+
+}
+#queue2{
+    width:50%;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+#child h2{
+    color:white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+
+}
+#child p {
+    color:white;
+    font-size:1vw;
+}
+#child {
+     
+    height: 30%
+    color:#fff;
+    font-size:1.5vw;
+	margin-left:-30px;
+
+}
+
+@media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+}
+
+@media screen and (max-width: 600px) {
+	.mainnav ul li {
+		display: none;
+	}
+		
+	.mainnav ul li.icon {
+		float: none;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mainnav.responsive {
+		position: relative;
+	}
+	.mainnav.responsive ul li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.mainnav.responsive ul li {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	
+	.mainnav.responsive ul li.home{
+		margin:0;
+	}
+	
+	.mainnav.responsive ul li.bookings {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.mainnav.responsive ul li:hover:after{
+		content: "";
+		display: block;
+		margin: 0 auto;
+		width: 75%;
+		border-bottom:1px solid #83744d;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.nav2.responsive {
+		position: relative;
+		border-style: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.logo {
+		position: relative;
+		border-style: none;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.login {
+		position: relative;
+		border-style: none;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.nav2trs {
+		position: relative;
+		float: none;
+		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.copyright {
+		position: relative;
+		border-style: none;
+		float: left;
+		margin: 0;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.text {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mainnav ul li {
+		display: none;
+	}
+		
+	.mainnav ul li.icon {
+		float: none;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mainnav.responsive {
+		position: relative;
+	}
+	.mainnav.responsive ul li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.mainnav.responsive ul li {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	
+	.mainnav.responsive ul li.home{
+		margin:0;
+	}
+	
+	.mainnav.responsive ul li.bookings {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.mainnav.responsive ul li:hover:after{
+		content: "";
+		display: block;
+		margin: 0 auto;
+		width: 75%;
+		border-bottom:1px solid #83744d;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.nav2.responsive {
+		position: relative;
+		border-style: none;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.text {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.mainnav ul li {
+		display: none;
+	}
+		
+	.mainnav ul li.icon {
+		float: none;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.mainnav.responsive {
+		position: relative;
+	}
+	
+	.mainnav.responsive ul li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.mainnav.responsive ul li {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	
+	.mainnav.responsive ul li.home{
+		margin:0;
+	}
+	
+	.mainnav.responsive ul li.bookings {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.mainnav.responsive ul li:hover:after{
+		content: "";
+		display: block;
+		margin: 0 auto;
+		width: 75%;
+		border-bottom:1px solid #83744d;
+	}
+}

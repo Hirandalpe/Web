@@ -1,0 +1,111 @@
+
+
+/*--mizabdue:contact__2020/07/03--*/
+
+	.content_h1{
+		text-align: center;
+		
+		
+		
+		
+	}
+	body{
+		background-image: url("contact-bg.png");
+		
+		padding-right: 180px;
+		
+		padding-left: 180px;
+	}
+	.row {
+		background-color: #52517B;
+		
+		padding-top: 25px;
+		padding-right: 40px;
+		padding-bottom: 25px;
+		padding-left: 40px;
+		
+		color: white;
+		font-family:Verdana;
+	}
+	.col-sm-12{
+		background-color: #FCFCFC;
+		padding-top: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+	}
+	.infobox_infobox--s2{
+		background-color: #52517B;
+	}
+	a:link{
+		color: #F0AF1A;
+	}
+	.table{
+	text-align: left;}
+	
+/*--mizabdue:contact__2020/08/20--*/
+
+	.form-control{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+		
+	.btn{
+		background-color: #52517B;
+		border: none;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		display: inline-block;
+		font-size: 12px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 10px;
+		border: 2px solid #555555;
+	}
+	
+/*--mizabdue:contact__2020/08/24--*/
+
+	#para01{
+		float: right;
+		position: relative;
+		border: 20px;
+		margin: 20px;
+		width: 50%;
+		text-align: center;
+	}
+	
+	#para02{
+		float: left;
+		position: relative;
+		border: 20px;
+		margin:20px;
+		width: 50%;
+		text-align: center;
+	}
+	#slid01{
+		float: left;
+		position: relative;
+		border: none;
+	}
+	#slid02{
+		float: right;
+		position: relative;
+		border: none;
+	}
+	.hambanthota{
+		
+		position: relative;
+		border: 2px;
+	}
+	.kandy{
+		float: bottom;
+		position: relative;
+		border: none;
+	}
+	.topic{
+		text-decoration: underline;
+		font-family: Comic Sans MS;
+	}

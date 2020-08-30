@@ -1,0 +1,556 @@
+*{transition:all 0.3s ease-in-out;}
+
+body {
+	background-color: #ffffff;
+}
+
+a:link{
+	text-decoration: none;
+	color: #8b7f53;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #8b7f53;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #8b7f53;
+}
+
+a:active{
+	text-decoration: none;
+	color: #8b7f53;
+}
+
+.footer{
+	text-align: center;
+	background-color: #83744d;
+	bottom: 0;
+	width: 98vw;
+	height: 20vh;
+}
+
+#social{
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+	display: block;
+	margin: 0 auto;
+}
+
+#social a{
+	color: #f2f2f2;
+	text-decoration: none;
+	text-align: center;
+	margin: 3vw;
+	font-size: 3vh;
+}
+
+#social a:hover{
+	color: #F0AF1A;
+}
+
+.copyright{
+	font-family:Bahnschrift SemiCondensed;
+	font-size:1.5vh;
+	color: #8b7f53;
+	margin-left: 10vw; /*for discription 20vw*/
+	margin-right: 70vw;
+	float: left;
+}
+
+.container{
+	clear:both;
+	overflow:auto;
+	background-color: #ffffff;
+	color: #201d13;
+	overflow: hidden;
+}
+
+.mainnav{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #f2f2f2;
+	z-index: +1;
+}
+
+.logo{
+	margin-left: 45vw;
+	margin-right: 45vw;
+}
+
+.logo img{
+	width: 10vw;
+	cursor: pointer;
+}
+
+nav{
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+nav ul li{
+	text-align: center;
+	display: inline-block;
+	padding-left:2.5vh;
+	padding-right:2.5vh;
+	padding-top: 2.5vh;
+	padding-bottom: 2.5vh;
+	font-size:3vh;
+	font-family:Bahnschrift SemiCondensed;
+	color: #8b7f53;
+	cursor: pointer;
+}
+
+.bookings{
+	background-color: #83744d;
+	color: #ece8df;
+	float: right;
+	font-family:Bahnschrift SemiCondensed;
+	font-size:3vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-right: 2vw;
+	cursor: pointer;
+}
+
+.bookings a{
+	color: #ece8df;
+}
+
+.bookings:hover{
+	background-color: 64593B;
+}
+
+nav ul li:hover:after{
+	content: "";
+    display: block;
+	margin: 0 auto;
+    width: 75%;
+	border-bottom:0.3vh solid #64593B;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.mainnav .icon {
+	display: none;
+	font-size: 3vh;
+	color: gray;
+}
+
+.nav2{
+	float: right;
+	color: #ece8df;
+	margin-right: 10vh;
+	margin-left: 80vh;
+	border-color: #64593B;
+}
+
+.incl{
+	float: left;
+	color: #83744d;
+	width: 49vw;
+	height: 50vh;
+	text-align: center;
+}
+
+.incl h1{
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 10vh;
+}
+
+.incl p{
+	text-align: center;
+	font-family: Bahnschrift Light;
+	font-size: 4vh;
+	margin: 1vw;
+}
+
+.incl1{
+	width: 98vw;
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+.incl1 img{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+	height: 50vh;
+	width: 49vw;
+	float: right;
+	z-index: -1;
+}
+
+.login{
+	float: right;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	margin-left: 1vw;
+	background-color: #83744d;
+	color: #ece8df;
+	border-color: #83744d;
+	font-family:Bahnschrift SemiCondensed;
+	font-size: 2.5vh;
+	cursor: pointer;
+}
+
+.login:hover{
+	background-color: #64593B;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.twin,
+.twincon {
+    background-color: #f2f2f2;
+    height: 80vh;
+    border: 2px solid #f2f2f2;
+    width: 100%;
+}
+
+.twin2 {
+    background-color: #f2f2f2;
+    height: 25vh;
+    border: 2px solid #f2f2f2;
+    width: 100%;
+}
+
+.twin2 h1 {
+    color: #83744d;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    display: block;
+    font-size: 45px;
+}
+
+.twin2 p {
+    color: #83744d;
+    font-family: Bahnschrift Light;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+#bars {
+    display: none;
+}
+
+.active {
+    background-color: #301368;
+}
+
+.header img {
+    margin-left: 40vw;
+    height: 25vh;
+    width: initial;
+}
+
+.header h2 {
+    margin-left: 35vw;
+    display: block;
+    font-family: 'Great Vibes', cursive;
+    color: #19031f;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.parallax {
+    z-index: -1;
+    opacity: 01;
+    background-image: url("../img/twinp2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    z-index: -1;
+    opacity: 1;
+    background-image: url("../img/twinp2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    z-index: -1;
+    opacity: 1;
+    background-image: url("../img/Connecting3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    z-index: -1;
+    opacity: 1;
+    background-image: url("../img/Prince.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#twinj {
+    font-family: 'Great Vibes', cursive;
+    display: block;
+    font-size: 28px;
+    color: #83744d;
+}
+
+.name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    text-decoration-line: underline;
+    color: #83744d;
+	text-align: center;
+    display: block;
+    padding-top: 15vh;
+    z-index: 1;
+    -moz-text-decoration-line: underline;
+}
+
+.nameoplj {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    text-decoration-line: underline;
+    color: #83744d;
+	text-align: center;
+    display: block;
+    padding-top: 15vh;
+    z-index: 1;
+    -moz-text-decoration-line: underline;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+div.gallery:hover{
+	box-shadow: 0 24px 24px 0 rgba(0,0,0,0.2);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #83744d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    margin-top: 10vh;
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 40%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mousedown {
+    color: gold;
+    display: block;
+    margin-left: 50vw;
+    padding-top: 15vh;
+    text-shadow: 0 0 10px #19031f;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.mousedown1 {
+    color: gold;
+    display: block;
+    margin-left: 50vw;
+    text-shadow: 0 0 10px #19031f;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.p {
+    padding-top: 180px;
+    color: #83744d;
+    text-align: left;
+    display: block;
+    bottom: 0;
+}
+
+.contact {
+    padding-top: -10vh;
+    color: white;
+}
+
+.twincon h1 {
+    font-size: 32px;
+    color: #83744d;
+    font-family: 'Great Vibes', cursive;
+}
+
+.twincon h2 {
+    color: #83744d;
+    font-family: Bahnschrift Light;
+}
+
+.parallax .name {
+    margin-left: 25%;
+}
+
+.gallery img:hover {
+    transform: scale(2);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+@media only screen and (max-width: 300px) {
+	.text {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mainnav ul li {
+		display: none;
+	}
+		
+	.mainnav ul li.icon {
+		float: none;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mainnav.responsive {
+		position: relative;
+	}
+	.mainnav.responsive ul li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.mainnav.responsive ul li {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	
+	.mainnav.responsive ul li.home{
+		margin:0;
+	}
+	
+	.mainnav.responsive ul li.bookings {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.mainnav.responsive ul li:hover:after{
+		content: "";
+		display: block;
+		margin: 0 auto;
+		width: 75%;
+		border-bottom:1px solid #83744d;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.nav2.responsive {
+		position: relative;
+		border-style: none;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.text {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.mainnav ul li {
+		display: none;
+	}
+		
+	.mainnav ul li.icon {
+		float: none;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.mainnav.responsive {
+		position: relative;
+	}
+	
+	.mainnav.responsive ul li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.mainnav.responsive ul li {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	
+	.mainnav.responsive ul li.home{
+		margin:0;
+	}
+	
+	.mainnav.responsive ul li.bookings {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.mainnav.responsive ul li:hover:after{
+		content: "";
+		display: block;
+		margin: 0 auto;
+		width: 75%;
+		border-bottom:1px solid #83744d;
+	}
+}
